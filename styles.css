@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F6F6DB;
+}
+
+#grid {
+    display: flex;
+    align-content: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.grid-element {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+#gridSizeInput {
+    margin-top: 10px;
+    width: 150px;
+}
+
+#gridSizeButton {
+    width: 153.64px;
+}
+
+#scetchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
